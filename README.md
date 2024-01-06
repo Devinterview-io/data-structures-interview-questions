@@ -1,73 +1,896 @@
+# Top 100 Data Structures Interview Questions
 
-# 🖲 Top 44 Data Structures interview questions (answered) for developers in 2021
-
-Check our list of essential Data Structures interview questions and answers that will trend on tech interviews in 2021.
-
-</br>
-
+<div>
 <p align="center">
-  <a href="https://devinterview.io/">
-  <img src="https://source.unsplash.com/collection/52661698/600x300">
-  </a>
+<a href="https://devinterview.io/questions/data-structures-and-algorithms/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fdata-structures-and-algorithms-github-img.jpg?alt=media&token=fa19cf0c-ed41-4954-ae0d-d4533b071bc6" alt="data-structures-and-algorithms" width="100%">
+</a>
 </p>
 
-</br>
+#### You can also find all 100 answers here 👉 [Devinterview.io - Data Structures](https://devinterview.io/questions/data-structures-and-algorithms/data-structures-interview-questions)
 
-> You can also find all 44 answers here 👉🏼  https://devinterview.io/data/dataStructures-interview-questions
+<br>
 
-</br>
+## 1. Explain how you would reverse an array in place.
 
-<div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 1. Explain why Stack is a recursive data structure</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A <strong>stack</strong> is a <strong>recursive</strong> data structure, so it's:</p><ul><li>a stack is either empty or</li><li>it consists of a top and the rest which is a stack by itself;</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html" rel="noreferrer" target="_blank" title="Explain why Stack is a recursive data structure Interview Questions Source To Answer">www.cs.cmu.edu</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 2. Define Stack</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A <strong>Stack</strong> is a container of objects that are inserted and removed according to the last-in first-out (<strong>LIFO</strong>) principle. In the pushdown stacks only two operations are allowed: push the item into the stack, and pop the item out of the stack.</p><p>There are basically three operations that can be performed on stacks. They are:</p><ol><li>inserting an item into a stack (<strong>push</strong>). </li><li>deleting an item from the stack (<strong>pop</strong>). </li><li>displaying the contents of the stack (<strong>peek</strong> or <strong>top</strong>).</li></ol><p>A stack is a limited access data structure - elements can be added and removed from the stack only at the top. push adds an item to the top of the stack, pop removes the item from the top. A helpful analogy is to think of a stack of books; you can remove only the top book, also you can add a new book on the top.</p><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html" rel="noreferrer" target="_blank" title="Define Stack Interview Questions Source To Answer">www.cs.cmu.edu</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 3. What is Queue?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A <strong>queue</strong> is a container of objects (a <em>linear</em> collection) that are inserted and removed according to the first-in first-out (FIFO) principle. The process to add an element into queue is called <strong>Enqueue</strong> and the process of removal of an element from queue is called <strong>Dequeue</strong>.</p><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html" rel="noreferrer" target="_blank" title="What is Queue? Interview Questions Source To Answer">www.cs.cmu.edu</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 4. Name some characteristics of Array Data Structure</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>Arrays are: </p><ul><li><strong>Finite (fixed-size)</strong> - An array is finite because it contains only limited number of elements.</li><li><strong>Order</strong> -All the elements are stored one by one , in contiguous  location of computer memory in a linear order and fashion</li><li><strong>Homogenous</strong> - All  the elements of an array are of  same  data types only  and hence  it is termed as collection of homogenous</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="http://codelack.com/array-data-structure/" rel="noreferrer" target="_blank" title="Name some characteristics of Array Data Structure Interview Questions Source To Answer">codelack.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 5. Define Linked List</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A <strong>linked list</strong> is a linear data structure where each element is a separate object. Each element (we will call it a <strong>node</strong>) of a list is comprising of two items - the <strong>data</strong> and a <strong>reference (pointer)</strong> to the next node. The last node has a reference to <strong>null</strong>. The entry point into a linked list is called the <strong>head</strong> of the list. It should be noted that <em>head is not a separate node,</em> but the reference to the first node. If the list is empty then the head is a null reference.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html" rel="noreferrer" target="_blank" title="Define Linked List Interview Questions Source To Answer">www.cs.cmu.edu</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 6. Define Tree Data Structure</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p><strong>Trees</strong> are well-known as a <em>non-linear</em> data structure. They don’t store data in a linear way. They organize data <em>hierarchically</em>.</p><p>A <strong>tree</strong> is a collection of entities called <strong>nodes</strong>. Nodes are connected by <strong>edges</strong>. Each node contains a <strong>value</strong> or <strong>data</strong> or <strong>key</strong>, and it may or may not have a <strong>child</strong> node. The first node of the tree is called the <strong>root</strong>. <strong>Leaves</strong> are the last nodes on a tree. They are nodes without children.</p><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/" rel="noreferrer" target="_blank" title="Define Tree Data Structure Interview Questions Source To Answer">www.freecodecamp.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 7. What is Priority Queue?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A <strong>priority queue</strong> is a data structure that stores <strong>priorities</strong> (comparable values) and perhaps associated information.  A <strong>priority queue</strong> is different from a "normal" queue, because instead of being a "first-in-first-out" data structure, values come out in order by <strong>priority</strong>. Think of a priority queue as a kind of bag that holds priorities. You can put one in, and you can take out the current highest priority.</p><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="http://pages.cs.wisc.edu/~vernon/cs367/notes/11.PRIORITY-Q.html" rel="noreferrer" target="_blank" title="What is Priority Queue? Interview Questions Source To Answer">pages.cs.wisc.edu</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 8. What is Heap?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A <strong>Heap</strong> is a special Tree-based data structure which is an almost complete tree that satisfies the heap property:</p><ul><li>in a <strong>max heap</strong>, for any given node C, if P is a parent node of C, then the key (the value) of P is greater than or equal to the key of C. </li><li>In a <strong>min heap</strong>, the key of P is less than or equal to the key of C. The node at the "top" of the heap (with no parents) is called the root node.</li></ul><p>A common implementation of a heap is the binary heap, in which the tree is a <strong>binary tree.</strong></p><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.geeksforgeeks.org/heap-data-structure/" rel="noreferrer" target="_blank" title="What is Heap? Interview Questions Source To Answer">www.geeksforgeeks.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 9. What is Hash Table?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A <strong>hash table</strong> (hash map) is a data structure that implements an <strong>associative</strong> array abstract data type, a <strong>structure</strong> that can <strong>map keys to values</strong>. Hash tables implement an associative array, which is indexed by arbitrary objects (keys). A hash table uses a <strong>hash function</strong> to compute an <strong>index</strong>, also called a <strong>hash value</strong>, into an <strong>array of buckets</strong> or slots, from which the desired <strong>value</strong> can be found.</p><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://en.wikipedia.org/wiki/Hash_table" rel="noreferrer" target="_blank" title="What is Hash Table? Interview Questions Source To Answer">en.wikipedia.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 10. What is String in Data Structures?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A <strong>string</strong> is generally considered as a <strong>data type</strong> and is often implemented as an <strong>array data structure</strong> of bytes (or words) that stores a sequence of elements, typically characters, using some character encoding. String may also denote more general arrays or other sequence (or list) data types and structures.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://dev.to/lareenmelo/learning-algorithms-and-data-structures-strings-48mm" rel="noreferrer" target="_blank" title="What is String in Data Structures? Interview Questions Source To Answer">dev.to</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 11. Define Binary Tree</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A normal tree has no restrictions on the number of children each node can have. A <strong>binary tree</strong> is made of nodes, where each node contains a "left" pointer, a "right" pointer, and a data element. </p><p>There are three different types of binary trees:</p><ul><li><strong>Full binary tree</strong>: Every node other than leaf nodes has 2 child nodes.</li><li><strong>Complete binary tree</strong>: All levels are filled except possibly the last one, and all nodes are filled in as far left as possible.</li><li><strong>Perfect binary tree</strong>: All nodes have two children and all leaves are at the same level.</li></ul><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://study.com/academy/lesson/binary-trees-applications-implementation.html" rel="noreferrer" target="_blank" title="Define Binary Tree Interview Questions Source To Answer">study.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 12. What is a Graph?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A <strong>graph</strong> is a common data structure that consists of a finite set of <strong>nodes</strong> (or <strong>vertices</strong>) and a set of <strong>edges</strong> connecting them. A pair <code>(x,y)</code> is referred to as an edge, which communicates that the <strong>x vertex</strong> connects to the <strong>y vertex</strong>.</p><p>Graphs are used to solve real-life problems that involve representation of the problem space as a <strong>network</strong>. Examples of networks include telephone networks, circuit networks, social networks (like LinkedIn, Facebook etc.).</p><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.educative.io/edpresso/what-is-a-graph-data-structure" rel="noreferrer" target="_blank" title="What is a Graph? Interview Questions Source To Answer">www.educative.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 13. What is Trie?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p><strong>Trie</strong> (also called <strong>digital tree </strong>or <strong>prefix tree</strong>) is a <em>tree-based data structure</em>, which is used for efficient <em>retrieval</em> of a key in a large data-set of strings. Unlike a binary search tree, no node in the tree stores the key associated with that node; instead, its position in the tree defines the key with which it is associated; i.e., <strong>the value of the key is distributed across the structure</strong>. All the descendants of a node have a common prefix of the string associated with that node, and the root is associated with the empty string. Each complete English word has an arbitrary integer value associated with it (see image).</p><br><p></p><div><div><div><div></div></div></div></div>
-<br><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/@info.gildacademy/an-introduction-to-trie-b8483bdb80c5" rel="noreferrer" target="_blank" title="What is Trie? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 14. What is Complexity Analysis of Queue operations?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><ul><li>Queues offer random access to their contents by shifting the first element off the front of the queue. You have to do this repeatedly to access an arbitrary element somewhere in the queue. Therefore, <strong>access</strong> is <code><i>O</i>(<i>n</i>)</code>.</li><li>Searching for a given value in the queue requires iterating until you find it. So <strong>search</strong> is <code><i>O</i>(<i>n</i>)</code>.</li><li>Inserting into a queue, by definition, can only happen at the back of the queue, similar to someone getting in line for a delicious Double-Double burger at In 'n Out. Assuming an efficient queue implementation, queue <strong>insertion</strong> is <code><i>O</i>(<i>1</i>)</code>.</li><li>Deleting from a queue happens at the front of the queue. Assuming an efficient queue implementation, queue <strong>deletion</strong> is `<code><i>O</i>(<i>1</i>)</code>.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://github.com/tim-hr/stuff/wiki/Time-complexity:-Queues" rel="noreferrer" target="_blank" title="What is Complexity Analysis of Queue operations?  Interview Questions Source To Answer">github.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 15. Name some disadvantages of Linked Lists?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>Few disadvantages of linked lists are :</p><ul><li>They use more memory than arrays because of the storage used by their pointers.</li><li>Difficulties arise in linked lists when it comes to reverse traversing. For instance, singly linked lists are cumbersome to navigate backwards and while doubly linked lists are somewhat easier to read, memory is wasted in allocating space for a back-pointer.</li><li>Nodes in a linked list must be read in order from the beginning as linked lists are inherently sequential access.</li><li>Random access has linear time.</li><li>Nodes are stored incontiguously (no or poor cache locality), greatly increasing the time required to access individual elements within the list, especially with a CPU cache.</li><li>If the link to list's node is accidentally destroyed then the chances of data loss after the destruction point is huge. Data recovery is not possible.</li><li>Search is linear versus logarithmic for sorted arrays and binary search trees.</li><li>Different amount of time is required to access each element.</li><li>Not easy to sort the elements stored in the linear linked list.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.quora.com/What-are-the-disadvantages-of-linked-lists" rel="noreferrer" target="_blank" title="Name some disadvantages of Linked Lists? Interview Questions Source To Answer">www.quora.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 16. What are some types of Queue?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p> Queue can be classified into following types:</p><ul><li><strong>Simple Queue</strong> - is a linear data structure in which removal of elements is done in the same order they were inserted i.e., the element will be removed first which is inserted first.</li></ul><p></p><div><div><div><div></div></div></div></div><p></p><ul><li><strong>Circular Queue</strong> - is a linear data structure in which the operations are performed based on FIFO (First In First Out) principle and the last position is connected back to the first position to make a circle. It is also called <strong>Ring Buffer</strong>. Circular queue avoids the wastage of space in a regular queue implementation using arrays.</li></ul><p></p><div><div><div><div></div></div></div></div><p></p><ul><li><strong>Priority Queue</strong> - is a type of queue where each element has a priority value and the deletion of the elements is depended upon the priority value</li></ul><p></p><div><div><div><div></div></div></div></div><p></p><ul><li>In case of <strong>max-priority queue</strong>, the element will be deleted first which has the largest priority value</li><li>In case of <strong>min-priority queue</strong> the element will be deleted first which has the minimum priority value.</li><li><strong>De-queue (Double ended queue)</strong> - allows insertion and deletion from both the ends i.e. elements can be added or removed from rear as well as front end.</li></ul><p></p><div><div><div><div></div></div></div></div><p></p><ul><li><strong>Input restricted deque</strong> - In input restricted double ended queue, the insertion operation is performed at only one end and deletion operation is performed at both the ends.</li></ul><p></p><div><div><div><div></div></div></div></div><p></p><ul><li><strong>Output restricted deque</strong> - In output restricted double ended queue, the deletion operation is performed at only one end and insertion operation is performed at both the ends.</li></ul><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.ques10.com/p/34997/what-are-different-types-of-queues/" rel="noreferrer" target="_blank" title="What are some types of Queue? Interview Questions Source To Answer">www.ques10.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 17. Why and when should I use Stack or Queue data structures instead of Arrays/Lists?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>Because they help manage your data in more a <em>particular</em> way than arrays and lists. It means that when you're debugging a problem, you won't have to wonder if someone randomly inserted an element into the middle of your list, messing up some invariants.</p><p>Arrays and lists are random access. They are very flexible and also easily <em>corruptible</em>. If you want to manage your data as FIFO or LIFO it's best to use those, already implemented, collections.</p><p>More practically you should:</p><ul><li>Use a queue when you want to get things out in the order that you put them in (FIFO)</li><li>Use a stack when you want to get things out in the reverse order than you put them in (LIFO)</li><li>Use a list when you want to get anything out, regardless of when you put them in (and when you don't want them to automatically be removed).</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/2074970/stack-and-queue-why" rel="noreferrer" target="_blank" title="Why and when should I use Stack or Queue data structures instead of Arrays/Lists? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 18. What are Dynamic Arrays?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>A <strong>dynamic array</strong> is an array with a big improvement: <em>automatic resizing</em>.</p><p>One limitation of arrays is that they're <em>fixed</em> size, meaning you need to specify the number of elements your array will hold ahead of time. A dynamic array expands as you add more elements. So you don't need to determine the size ahead of time.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.interviewcake.com/concept/java/dynamic-array" rel="noreferrer" target="_blank" title="What are Dynamic Arrays? Interview Questions Source To Answer">www.interviewcake.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 19. What are some types of Linked List?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><ul><li>A <strong>singly linked list</strong></li></ul><p></p><div><div><div><div></div></div></div></div><p></p><ul><li>A <strong>doubly linked list</strong> is a list that has two references, one to the next node and another to previous node.</li></ul><p></p><div><div><div><div></div></div></div></div><p></p><ul><li>A <strong>multiply linked list</strong> - each node contains two or more link fields, each field being used to connect the same set of data records in a different order of same set(e.g., by name, by department, by date of birth, etc.).</li><li>A <strong>circular linked list</strong> - where last node of the list points back to the first node (or the head) of the list.</li></ul><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html" rel="noreferrer" target="_blank" title="What are some types of Linked List? Interview Questions Source To Answer">www.cs.cmu.edu</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 20. What is the space complexity of a Hash Table?</h2></div> <div data-v-4865b274=""><h3 data-v-4865b274="">Answer:</h3> <div data-v-4865b274=""><div><div><div class="AnswerBody"><p>The space complexity of a datastructure indicates how much space it occupies in relation to the amount of elements it holds. For example a space complexity of <code>O(1)</code> would mean that the datastructure alway consumes constant space no matter how many elements you put in there. <code>O(n)</code> would mean that the space consumption grows linearly with the amount of elements in it.</p><p>A <strong>hashtable</strong> typically has a space complexity of <code>O(n)</code>.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/6529966/what-is-the-space-complexity-of-a-hash-table" rel="noreferrer" target="_blank" title="What is the space complexity of a Hash Table? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 21. What is Binary Heap?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 22. What's the difference between the data structure Tree and Graph?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 23. What is Binary Search Tree?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 24. Under what circumstances are Linked Lists useful?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 25. What is the difference between Strings vs. Char arrays?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 26. What does Sparse Array mean?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 27. What is an Associative Array?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 28. Compare Heaps vs Arrays to implement Priority Queue</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 29. What is complexity of Hash Table?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 30. Name some common types and categories of Graphs</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 31. Name some application of Trie data structure</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 32. What is Balanced Tree and why is that important?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 33. What is AVL Tree?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 34. Convert a Binary Tree to a Doubly Linked List</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 35. What is Red-Black tree?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 36. What are some main advantages of Tries over Hash Tables</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 37. What is Bipartite Graph? How to detect one?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 38. What are Pascal Strings?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 39. Explain what is B-Tree?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 40. How To Choose Between a Hash Table and a Trie (Prefix Tree)?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 41. When is doubly linked list more efficient than singly linked list?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 42. What is Rope Data Structure is used for?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 43. Compare lookup operation in Trie vs Hash Table</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div><div data-v-4865b274="" data-v-43a77f0d=""><div data-v-4865b274=""><h2 data-v-4865b274="">🔹 44. How are B-Trees used in practice?</h2></div> <div data-v-4865b274="">
-    👉🏼 Check
-    <a data-v-4865b274="" href="https://devinterview.io/data/dataStructures-interview-questions">all 44 answers</a></div> <br data-v-4865b274=""><br data-v-4865b274=""></div></div>
+**In-place reversal** modifies the original array without extra space.
 
-<br />
+Here is a general-purpose implementation:
 
-> You can also find more Data Structures interview questions here 👉🏼 https://devinterview.io/data/
+### Code Example: Array Reversal
+
+Here is the Python code:
+
+```python
+def reverse_array(arr):
+    start, end = 0, len(arr) - 1
+    while start < end:
+        arr[start], arr[end] = arr[end], arr[start]
+        start, end = start + 1, end - 1
+        
+my_array = [1, 2, 3, 4, 5]
+print("Original Array:", my_array)
+reverse_array(my_array)
+print("Reversed Array:", my_array)
+```
+<br>
+
+## 2. What is the difference between an _array_ and a _linked list_?
+
+Let me put the two fundamental type of lists,  **Arrays** and **Linked Lists**, into perspective.
+
+### Key Distinctions
+
+#### Data Organization
+
+* **Array**: Employs sequential memory storage and each element has a unique index.
+* **Linked List**: Elements are scattered in memory and accessed sequentially via references (pointers).
+
+#### Memory Management
+
+* **Array**: Typically requires a single, contiguous memory block.
+* **Linked List**: Memory allocations are dynamic and non-contiguous.
+
+#### Complexity Analysis
+
+| Operation     | Array     | Linked List |
+| ------------- |-----------| ------------|
+| Access        | $O(1)$ (with index)  | $O(n)$ |
+| Bulk Insertion| $O(n)$ or $O(1)$  | $O(1)$ |
+| Deletion      | $O(n)$ to $O(1)$   | $O(1)$ |
+
+### When to Use Each
+
+- **Arrays** are preferable when:
+  - There's a need for direct or random access such as in lookup tables.
+  - The data will remain relatively unchanged, and performance in accessing elements takes precedence over frequent insertions or deletions.
+
+- **Linked Lists** are more suitable when:
+  - Frequent insertions and deletions are expected, especially in the middle.
+  - The exact size of the list isn't known in advance, and you want the memory to be used flexibly.
+  - The primary operations are sequential, such as iteration from the beginning to the end.
+
+### Code Example: Array vs. Linked List
+
+Here is the Python code:
+
+#### Array
+```python
+# Define array
+my_array = [10, 20, 30, 40, 50]
+
+# Access element by index
+print(my_array[2])  # Output: 30
+
+# Bulk insertion at the beginning
+my_array = [5, 6, 7] + my_array
+print(my_array)  # Output: [5, 6, 7, 10, 20, 30, 40, 50]
+
+# Deletion from the middle
+del my_array[4]
+print(my_array)  # Output: [5, 6, 7, 10, 30, 40, 50]
+```
+
+#### Linked List
+```python
+# Define linked list nodes (in reality, you'd have a LinkedList class)
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+# Create linked list
+head = Node(10)
+node1 = Node(20)
+node2 = Node(30)
+head.next = node1
+node1.next = node2
+
+# Bulk insertion at the beginning
+new_node1 = Node(5)
+new_node2 = Node(6)
+new_node3 = Node(7)
+new_node3.next = head
+head = new_node1
+new_node1.next = new_node2
+print_nodes(head)  # Output: 5, 6, 7, 10, 20, 30
+
+# Deletion from the middle
+new_node1.next = new_node3
+# Now, just print_nodes(head) will output: 5, 6, 7, 20, 30
+```
+<br>
+
+## 3. How would you check for duplicates in an array without using extra space?
+
+**Checking for duplicates** in an array without additional space is a common challenge with solutions using hash functions, sorting, and mathematical calculations.
+
+### Brute Force Method
+
+The code checks for duplicates based on numerical repetition.
+
+#### Complexity Analysis
+
+- **Time Complexity**: $O(n^2)$
+- **Space Complexity**: $O(1)$
+
+#### Code Implementation
+
+Here is the Python code:
+
+```python
+def has_duplicates(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(i+1, n):
+            if arr[i] == arr[j]:
+                return True
+    return False
+
+arr = [1, 2, 3, 4, 3]
+print(has_duplicates(arr))  # Output: True
+```
+
+### Sorting Approach
+
+This method involves sorting the array using a **comparison-based sorting algorithm** like Quick Sort. If two adjacent elements are the same, then the array has duplicates.
+
+#### Complexity Analysis
+
+- **Time Complexity**: Best/Worst: $O(n \log n)$
+- **Space Complexity**: $O(1)$ or $O(n)$ depending on sorting algorithm
+
+#### Code Implementation
+
+Here is the Python code:
+
+```python
+def has_duplicates_sorted(arr):
+    arr.sort()
+    n = len(arr)
+    for i in range(n - 1):
+        if arr[i] == arr[i+1]:
+            return True
+    return False
+
+arr = [1, 2, 3, 4, 3]
+print(has_duplicates_sorted(arr))  # Output: True
+```
+
+### Mathematical Approach
+
+For this method, **the sum of numbers in the array** is calculated. Mathematically, if no duplicates are present, the sum of consecutive natural numbers can be calculated to compare against the actual sum.
+
+If $\text{actual sum} - \text{sum of numbers in the array} = 0$, there are no duplicates.
+
+#### Code Implementation
+
+Here is the Python code:
+
+```python
+def has_duplicates_math(arr):
+    array_sum = sum(arr)
+    n = len(arr)
+    expected_sum = (n * (n-1)) // 2  # Sum of first (n-1) natural numbers
+    return array_sum - expected_sum != 0
+
+arr = [1, 2, 3, 4, 5, 5]
+print(has_duplicates_math(arr))  # Output: True
+```
+<br>
+
+## 4. Can you explain how to perform a _binary search_ on a sorted array?
+
+Let's look at the high-level **strategy** behind binary search and then walk through a **step-by-step example**.
+
+### Binary Search Strategy
+
+1. **Divide & Conquer**: Begin with the entire sorted array and refine the search range in each step.
+2. **Comparison**: Use the middle element to determine the next search range.
+3. **Repetition**: Continue dividing the array until the target is found or the search range is empty.
+
+### Step-by-Step Example
+
+Let's consider the following array with the target value of `17`:
+
+```plaintext
+[1, 3, 6, 7, 9, 12, 15, 17, 20, 21]
+```
+
+1. **Initial Pointers**: We start with the whole array.  
+   ```plaintext
+   [1, 3, 6, 7, 9, 12, 15, 17, 20, 21]  
+   ^                               ^
+   Low                             High
+   Middle: (Low + High) / 2 = 5
+   ```
+
+   This identifies the `Middle` number as `12`.
+
+2. **Comparison**: Since the `Middle` number is less than the target `17`, we can **discard** the left portion of the array.
+   ```plaintext
+   [15, 17, 20, 21]
+   ^           ^
+   Low        High
+   ```
+
+3. **Updated Pointers**: We now have a reduced array to search.
+   ```plaintext
+   Middle = 7
+   ^      ^
+   Low   High
+   ```
+
+4. **Final Comparison**:  
+   Since the `Middle` number is now the target, `17`, the search is successfully concluded.
+<br>
+
+## 5. How would you rotate a two-dimensional _array_ by 90 degrees?
+
+Rotating a 2D array by $90^\circ$ can be visually understood as a **transpose** followed by a **reversal** of rows or columns.
+
+### Algorithm: Transpose and Reverse
+
+1. **Transpose**: Swap each element $A[i][j]$ with its counterpart $A[j][i]$
+2. **Reverse Rows (for $90^\circ$ CW)** or Columns (for $90^\circ$ CCW)
+
+### Complexity Analysis
+
+- **Time Complexity**: Both steps run in $O(n^2)$ time.
+- **Space Complexity**: Since we do an in-place rotation, it's $O(1)$.
+
+#### Code Example: Matrix Rotation
+
+Here is the Python code:
+
+```python
+def rotate_2d_clockwise(matrix):
+    n = len(matrix)
+    # Transpose
+    for i in range(n):
+        for j in range(i, n):
+            matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+    # Reverse Rows
+    for i in range(n):
+        for j in range(n//2):
+            matrix[i][j], matrix[i][n-j-1] = matrix[i][n-j-1], matrix[i][j]
+
+    return matrix
+
+def rotate_matrix_ccw(matrix):
+    n = len(matrix)
+    # Transpose
+    for i in range(n):
+        for j in range(i, n):
+            matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+    # Reverse Columns
+    for i in range(n):
+        for j in range(n//2):
+            matrix[j][i], matrix[n-j-1][i] = matrix[n-j-1][i], matrix[j][i]
+
+    return matrix
+
+# Test 
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(rotate_2d_clockwise(matrix))
+# Output: [[7, 4, 1], [8, 5, 2], [9, 6, 3]]
+```
+<br>
+
+## 6. Describe an algorithm to compress a string such as "_aabbccc_" to "_a2b2c3_".
+
+You can compress a string following the count of each character. For example, "_aabbccc_" becomes "_a2b2c3_".
+
+The python code for this algorithm is:
+
+```python
+def compress_string(input_string):
+    # Initialize
+    current_char = input_string[0]
+    char_count = 1
+    output = current_char
+
+    # Iterate through the string
+    for char in input_string[1:]:
+        # If the character matches the current one, increment count
+        if char == current_char:
+            char_count += 1
+        else:  # Append the count to the output and reset for the new character
+            output += str(char_count) + char
+            current_char = char
+            char_count = 1
+
+    # Append the last character's count
+    output += str(char_count)
+
+    # If the compressed string is shorter than the original string, return it
+    return output if len(output) < len(input_string) else input_string
+```
+
+### Time Complexity
+
+This algorithm has a time complexity of $O(n)$ since it processes each character of the input string exactly once.
+
+### Space Complexity
+
+The space complexity is $O(k)$, where $k$ is the length of the compressed string. This is because the **output** string is stored in memory.
+<br>
+
+## 7. What is an _array slice_ and how is it implemented in programming languages?
+
+Let's look at what is an **Array Slice** and how it's implemented in some programming languages.
+
+### What is an Array Slice?
+
+An array slice is a view on an existing array that acts as a smaller array. The slice references a continuous section of the original array which allows for efficient data access and manipulation.
+
+Array slices are commonly used in languages like **Python**, **Rust**, and **Go**.
+
+### Key Operations
+
+- **Read**: Access elements in the slice.
+- **Write**: Modify elements within the slice.
+- **Grow/Shrink**: Resize the slice, often DWARF amortized.
+- **Iteration**: Iterate over the elements in the slice.
+
+### Underlying Mechanism
+
+A slice typically contains:
+
+1. A **pointer** to the start of the slice.
+2. The **length** of the slice (the number of elements in the slice).
+3. The **capacity** of the slice (the maximum number of elements that the slice can hold).
+
+#### Benefit of Use
+
+- **No Copy Overhead**: Slices don't duplicate the underlying data; they're just references. This makes them efficient and memory-friendly.
+- **Flexibility**: Slices can adapt as the array changes in size.
+- **Safety**: Languages like **Rust** use slices for enforcing safety measures, preventing out-of-bounds access and memory issues.
+
+### Popular Implementations
+
+- **Python**: Uses list slicing, with syntax like `my_list[2:5]`. This creates a new list.
+  
+- **Go Lang**: Employs slices extensively and is perhaps the most slice-oriented language out there.
+
+- **Rust**: Similar to Go, it's a language heavily focused on memory safety, and slices are fundamental in that regard.
+
+### Code Example: Array Slicing
+
+Here is the **Python** code:
+
+  ```python
+  original_list = [1, 2, 3, 4, 5]
+  my_slice = original_list[1:4]  # Creates a new list: [2, 3, 4]
+  ```
+  
+  Here is the **Rust** code:
+
+  ```rust
+  let original_vec = vec![1, 2, 3, 4, 5];
+  let my_slice = &original_vec[1..4];  // References a slice: [2, 3, 4]
+  ```
+
+  And here is the **Go** code:
+
+  ```go
+  originalArray := [5]int{1, 2, 3, 4, 5}
+  mySlice := originalArray[1:4]  // References the originalArray from index 1 to 3
+  ```
+<br>
+
+## 8. Can you discuss the _time complexity_ of _array insertion_ and _deletion_?
+
+Both **array insertions** and **deletions** have a time complexity of $O(n)$ due to potential need for data re-arrangement.
+
+### Array Insertion
+
+- **Beginning**: $O(n)$ if array full; $1$ for shifting.
+- **Middle**: $O(n)$ to make room and insert.
+- **End**: $O(1)$ on average for appending.
+
+### Array Deletion
+
+- **Beginning**: $O(n)$ due to re-arrangement often needed.
+- **Middle**: $O(n)$ as it involves shifting.
+- **End**: $O(1)$ for most cases, but $O(n)$ when dynamic resizing is required.
+<br>
+
+## 9. What are some ways to merge two sorted _arrays_ into one sorted _array_?
+
+Merging two sorted arrays into a new sorted array can be accomplished through a variety of well-established techniques.
+
+### Methods of Merging Sorted Arrays
+
+1. **Using Additional Space**: 
+    - Create a new array and add elements from both arrays using two pointers, then return the merged list.
+    - Time Complexity: $O(n + m)$ - where $n$ and $m$ are the number of elements in each array. This approach is simple and intuitive.
+
+2. **Using a Min Heap**:
+   - Select the smallest element from both arrays using a min-heap and insert it into the new array.
+   - Time Complexity: $O((n + m) \log (n + m))$ 
+   - Space Complexity: $O(n + m)$ - Heap might contain all the elements.
+   - This approach is useful when the arrays are too large to fit in memory.
+
+3. **In-Place Merge**:
+    - Implement a merge similar to the one used in **Merge Sort**, directly within the input array.
+    - Time Complexity: $O(n \cdot m)$ - where $n$ and $m$ are the number of elements in each array.
+    - **In-Place Merging** becomes inefficient as the number of insertions increases.
+
+4. **Using Binary Search**: 
+   - Keep dividing the larger array into two parts and using binary search to find the correct position for elements in the smaller array.
+   - Time Complexity: $O(m \log n)$
+
+5. **Two-Pointer Technique**:
+   - Initialize two pointers, one for each array, and compare them to determine the next element in the merged array.
+   - Time Complexity: $O(n + m)$
+<br>
+
+## 10. How do you find the _kth largest element_ in an unsorted _array_?
+
+To find the $k^{\text{th}}$ largest element in an unsorted array, you can **leverage heaps or quicksort**.
+
+### Quickselect Algorithm
+
+- **Idea**: Partition the array using a pivot (similar to quicksort) and divide into subarrays until the partitioning index is the $k^{\text{th}}$ largest element.
+
+- **Time Complexity**: 
+  - Worst-case: $O(n^2)$ - This occurs when we're faced with the least optimized scenario, reducing $n$ by only one element for each stitch step.
+  - Average-case: $O(n)$ - Average performance is fast, making the expected time complexity linear.
+  
+- **Code Example**: Python
+
+  ```python
+  import random
+  
+  def quickselect(arr, k):
+      if arr:
+          pivot = random.choice(arr)
+          left = [x for x in arr if x < pivot]
+          right = [x for x in arr if x > pivot]
+          equal = [x for x in arr if x == pivot]
+          if k < len(left):
+              return quickselect(left, k)
+          elif k < len(left) + len(equal):
+              return pivot
+          else:
+              return quickselect(right, k - len(left) - len(equal))
+  ```
+
+### Heap Method
+
+- Build a **max-heap** $O(n)$ - This takes linear time, making $O(n) + O(k \log n) = O(n + k \log n)$.
+- Extract the max element $k$ times (each time re-heapifying the remaining elements).
+
+### Code Example: Python 
+
+```python
+import heapq
+
+def kth_largest_heap(arr, k):
+    if k > len(arr): return None
+    neg_nums = [-i for i in arr]
+    heapq.heapify(neg_nums)
+    k_largest = [heapq.heappop(neg_nums) for _ in range(k)]
+    return -k_largest[-1]
+```
+<br>
+
+## 11. Explain how a _singly linked list_ differs from a _doubly linked list_.
+
+**Singly linked lists** and **doubly linked lists** differ in how they manage node-to-node relationships.
+
+### Structure
+
+- **Singly Linked List**: Each node points to the next node.
+
+- **Doubly Linked List**: Both previous and next nodes are pointed to.
+
+### Visual Representation
+
+#### Singly Linked List
+
+![Singly Linked List](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/linked-lists%2Fsingly-linked-list.svg?alt=media&token=c6e2ad4f-e2d4-4977-a215-6253e71b6040)
+
+#### Doubly Linked List
+
+![Doubly Linked List](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/linked-lists%2Fdoubly-linked-list.svg?alt=media&token=5e14dad3-c42a-43aa-99ff-940ab1d9cc3d)
+
+### Key Distinctions
+
+- **Access Direction**: Singly linked lists facilitate one-way traversal, while doubly linked lists support bi-directional traversal.
+
+- **Head and Tail Movements**: Singly linked lists only operate on the head, while doubly linked lists can manipulate the head and tail.
+
+- **Backward Traversal Efficiency**: Due to their structure, singly linked lists may be less efficient for backward traversal.
+
+- **Memory Requirement**: Doubly linked lists use more memory as each node carries an extra pointer.
+
+### Code Example: Singly Linked List
+
+Here is the Java code:
+
+```java
+public class SinglyLinkedList {
+    
+    private static class Node {
+        private int data;
+        private Node next;
+
+        public Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+
+    private Node head;
+
+    public void insertFirst(int data) {
+        Node newNode = new Node(data);
+        newNode.next = head;
+        head = newNode;
+    }
+
+    public void display() {
+        Node current = head;
+        while (current != null) {
+            System.out.println(current.data);
+            current = current.next;
+        }
+    }
+}
+```
+
+### Code Example: Doubly Linked List
+
+Here is the Java code:
+
+```java
+public class DoublyLinkedList {
+    
+    private static class Node {
+        private int data;
+        private Node previous;
+        private Node next;
+
+        public Node(int data) {
+            this.data = data;
+            this.previous = null;
+            this.next = null;
+        }
+    }
+
+    private Node head;
+    private Node tail;
+
+    public void insertFirst(int data) {
+        Node newNode = new Node(data);
+        if (head == null) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            head.previous = newNode;
+            newNode.next = head;
+            head = newNode;
+        }
+    }
+
+    public void display() {
+        Node current = head;
+        while (current != null) {
+            System.out.println(current.data);
+            current = current.next;
+        }
+    }
+
+    public void displayBackward() {
+        Node current = tail;
+        while (current != null) {
+            System.out.println(current.data);
+            current = current.previous;
+        }
+    }
+}
+```
+<br>
+
+## 12. How would you detect a _cycle_ in a _linked list_?
+
+**Cycle detection** in a linked list is a fundamental algorithm that uses pointers to identify if a linked list has a repeating sequence.
+
+### Floyd's "Tortoise and Hare" Algorithm
+
+Floyd's algorithm utilizes two pointers:
+
+- The "tortoise" moves one step each iteration.
+- The "hare" moves two steps.
+
+If the linked list does not have a cycle, the hare either reaches the end (or null) before the tortoise, or vice versa. However, if there is a cycle, the two pointers **are guaranteed to meet** inside the cycle.
+
+### Algorithm Steps
+
+1. Initialize both pointers to the start of the linked list.
+2. Move the tortoise one step and the hare two steps.
+3. Continuously advance the pointers in their respective steps:
+   - If the tortoise reaches the hare (a collision point), return such a point.
+   - If either pointer reaches the end (null), conclude there is no cycle.
+
+### Visual Representation
+
+![Floyd's Algorithm](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/data%20structures%2Ffloyd-warshall-algorithm.png?alt=media&token=edbf8bd3-979a-44e8-ad49-041e9f30cece)
+
+### Complexity Analysis
+
+- **Time Complexity**: $O(n)$ where $n$ is the number of nodes in the linked list, due to each pointer visiting each node only once.
+- **Space Complexity**: $O(1)$ as the algorithm uses only a constant amount of extra space.
+
+### Code Example: Floyd's Cycle Detection
+
+Here is the Python code:
+
+```python
+def has_cycle(head):
+    tortoise = head
+    hare = head
+
+    while hare and hare.next:
+        tortoise = tortoise.next
+        hare = hare.next.next
+
+        if tortoise == hare:
+            return True
+
+    return False
+```
+<br>
+
+## 13. What are the major operations you can perform on a _linked list_, and their _time complexities_?
+
+Let's look at the major operations you can perform on a **singly linked list** and their associated time complexities:
+
+### Operations & Time Complexities
+
+#### Access (Read/Write) $O(n)$
+
+- **Head**: Constant time: $O(1)$.
+- **Tail**: $O(n)$ without a tail pointer, but constant with a tail pointer.
+- **Middle or k-th Element**: $\frac{n}{2}$ is around the middle node; getting k-th element requires $O(k)$.
+
+#### Search $O(n)$
+
+- **Unordered**: May require scanning the entire list. Worst case: $O(n)$.
+- **Ordered**: You can stop as soon as the value exceeds what you're looking for.
+
+#### Insertion $O(1)$ without tail pointer, $O(n)$ with tail pointer
+
+- **Head**: $O(1)$
+- **Tail**: $O(1)$ with a tail pointer, otherwise $O(n)$.
+- **Middle**: $O(1)$ with tail pointer and finding position in $O(1)$ time; otherwise, it's $O(n)$.
+
+#### Deletion $O(1)$ for Head and Tail, $O(n)$ otherwise
+
+- **Head**: $O(1)$
+- **Tail**: $O(n)$ because you must find the node before the tail for pointer reversal with a single pass.
+- **Middle**: $O(n)$ since you need to find the node before the one to be deleted.
+
+#### Length $O(n)$
+
+- **Naive**: Requires a full traversal. Every addition or removal requires this traversal.
+- **Keep Count**: Maintain a separate counter, updating it with each addition or removal.
+
+### Code Example: Singly Linked List Basic Operations
+
+Here is the Python code:
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class SinglyLinkedList:
+    def __init__(self):
+        self.head = None
+    
+    def append(self, data):  # O(n) without tail pointer
+        new_node = Node(data)
+        if not self.head:
+            self.head = new_node
+            return
+        last_node = self.head
+        while last_node.next:
+            last_node = last_node.next
+        last_node.next = new_node
+    
+    def delete(self, data):  # O(n) only if element is not at head
+        current_node = self.head
+        if current_node.data == data:
+            self.head = current_node.next
+            current_node = None
+            return
+        while current_node:
+            if current_node.data == data:
+                break
+            prev = current_node
+            current_node = current_node.next
+        if current_node is None:
+            return
+        prev.next = current_node.next
+        current_node = None
+
+    def get_middle(self):  # O(n)
+        slow, fast = self.head, self.head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+        return slow
+
+    def get_kth(self, k):  # O(k)
+        current_node, count = self.head, 0
+        while current_node:
+            count += 1
+            if count == k:
+                return current_node
+            current_node = current_node.next
+        return None
+
+    # Other methods: display, length, etc.
+```
+<br>
+
+## 14. Can you describe an _in-place algorithm_ to reverse a _linked list_?
+
+**In-Place Algorithms** modify data structures with a constant amount of extra working space $O(1)$.
+
+A **Singly Linked List** presents a straightforward example of an in-place data structure, well-suited for in-place reversal algorithms.
+
+### Reversing a Linked List: Core Concept
+
+The reversal algorithm just needs to update each node's `next` reference so that they point to the previous node. A few key steps achieve this:
+
+1. **Initialize**: Keep track of the three key nodes: `previous`, `current`, and `next`.
+2. **Reverse Links**: Update each node to instead point to the previous one in line.
+3. **Move Pointers**: Shift `previous`, `current`, and `next` nodes by one position for the next iteration. 
+
+This process proceeds iteratively until `current` reaches the end, i.e., `NULL`.
+
+### Complexity Analysis
+
+- **Time Complexity**: The algorithm exhibits a linear time complexity of $O(n)$ as it visits each node once.
+- **Space Complexity**: As the algorithm operates in-place, only a constant amount of extra space (for nodes pointers) is required: $O(1)$.
+
+### Code Example: In-Place List Reversal
+
+Here is the Python code:
+
+```python
+class Node:
+    def __init__(self, data=None):
+        self.data = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def append(self, data):
+        new_node = Node(data)
+        if not self.head:
+            self.head = new_node
+            return
+        last_node = self.head
+        while last_node.next:
+            last_node = last_node.next
+        last_node.next = new_node
+
+    def reverse_inplace(self):
+        previous = None
+        current = self.head
+        while current:
+            next_node = current.next
+            current.next = previous
+            previous = current
+            current = next_node
+        self.head = previous
+
+    def display(self):
+        elements = []
+        current = self.head
+        while current:
+            elements.append(current.data)
+            current = current.next
+        print(" -> ".join(str(data) for data in elements))
+
+# Populate the linked list
+llist = LinkedList()
+values = [4, 2, 8, 3, 1, 9]
+for value in values:
+    llist.append(value)
+
+# Display original
+print("Original Linked List:")
+llist.display()
+
+# Reverse in-place and display
+llist.reverse_inplace()
+print("\nAfter Reversal:")
+llist.display()
+```
+<br>
+
+## 15. Explain how you would find the _middle element_ of a _linked list_ in one pass.
+
+**Finding the middle element** of a linked list is a common problem with several efficient approaches, such as the **two-pointer (or "runner") technique**.
+
+### Two-Pointer Technique
+
+#### Explanation
+
+The two-pointer technique uses two pointers, often named `slow` and `fast`, to traverse the list. While `fast` moves two positions at a time, `slow` trails behind, covering a single position per move. When `fast` reaches the end, `slow` will be standing on the middle element.
+
+### Example
+
+Given the linked list: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
+
+The pointers will traverse as follows:
+
+- (1) `slow`: 1; `fast`: 2
+- (2) `slow`: 2; `fast`: 4
+- (3) `slow`: 3; `fast`: 6
+- (4) `slow`: 4; `fast`: end
+
+At (4), the `slow` pointer has reached the middle point.
+
+### Complexity Analysis
+
+- **Time Complexity**: $O(N)$ -- For every N nodes, we check each node once.
+- **Space Complexity**: $O(1)$ -- We only use pointers; no extra data structures are involved.
+
+### Code Example: Two-Pointer (Runner) technique
+
+Here is the Python implementation:
+
+```python
+def find_middle_node(head):
+    if not head:
+        return None
+
+    slow = fast = head
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+    return slow
+```
+<br>
+
+
+
+#### Explore all 100 answers here 👉 [Devinterview.io - Data Structures](https://devinterview.io/questions/data-structures-and-algorithms/data-structures-interview-questions)
+
+<br>
+
+<a href="https://devinterview.io/questions/data-structures-and-algorithms/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fdata-structures-and-algorithms-github-img.jpg?alt=media&token=fa19cf0c-ed41-4954-ae0d-d4533b071bc6" alt="data-structures-and-algorithms" width="100%">
+</a>
+</p>
+
